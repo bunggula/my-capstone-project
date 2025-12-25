@@ -1,30 +1,26 @@
-# Laravel + Livewire Starter Kit
+# 🏛️ LAOVISTA: Virtual Information System for Municipality of Laoac
 
-## Introduction
+**LAOVISTA** is a comprehensive digital ecosystem built to modernize public service delivery. It features a centralized web-based administration for municipal leaders and a user-centric mobile experience for residents.
 
-Our Laravel + [Livewire](https://livewire.laravel.com) starter kit provides a robust, modern starting point for building Laravel applications with a Livewire frontend.
+## 🛠️ Tech Stack
+- **Backend:** Laravel 11 (PHP) - RESTful API & Admin Dashboard
+- **Mobile:** Flutter (Dart) - Cross-platform App for Residents
+- **Frontend:** Tailwind & JS
+- **Database:** MySQL
 
-Livewire is a powerful way of building dynamic, reactive, frontend UIs using just PHP. It's a great fit for teams that primarily use Blade templates and are looking for a simpler alternative to JavaScript-driven SPA frameworks like React and Vue.
+## 🌟 Key Features
 
-This Livewire starter kit utilizes Livewire 3, Laravel Volt (optionally), TypeScript, Tailwind, and the [Flux UI](https://fluxui.dev) component library.
+### 📱 Resident Mobile App (Flutter)
+- **Digital Document Requests:** Seamless filing for Barangay Clearances and Indigency.
+- **Real-time Concerns:** Report broken streetlights, road issues, or emergencies with photo uploads.
+- **Smart Notifications:** Receive direct announcements from the Mayor or Barangay Captain.
 
-If you are looking for the alternate configurations of this starter kit, they can be found in the following branches:
+### 💻 Multi-Level Admin Dashboard (Laravel)
+- **ABC President (Super Admin):** High-level data analytics across all 22 barangays, total population tracking, and municipality-wide broadcasts.
+- **Barangay Captain (Admin):** Manage specific barangay concerns, approve events, and oversee local resident data.
+- **Barangay Secretary (Sub-Admin):** Digital processing of document requests and verification of new resident registrations.
 
-- [components](https://github.com/laravel/livewire-starter-kit/tree/components) - if Volt is not selected
-- [workos](https://github.com/laravel/livewire-starter-kit/tree/workos) - if WorkOS is selected for authentication
-
-## Official Documentation
-
-Documentation for all Laravel starter kits can be found on the [Laravel website](https://laravel.com/docs/starter-kits).
-
-## Contributing
-
-Thank you for considering contributing to our starter kit! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## License
-
-The Laravel + Livewire starter kit is open-sourced software licensed under the MIT license.
+## 📊 Impact
+- **Automated Workflow:** Reduces manual paperwork by 80%.
+- **Transparency:** Real-time tracking of resident concerns and resolution status.
+- **Data-Driven:** Provides municipal leaders with accurate statistics for better decision-making.
